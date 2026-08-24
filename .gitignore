@@ -1,0 +1,41 @@
+# --- C++ (backend, agent) ---
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.so
+*.so.*
+*.a
+*.out
+compile_commands.json
+
+# --- Node / frontend (Vite) ---
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Runtime data ---
+uploads/tmp/
+*.log
+
+# --- Secrets / local config ---
+.env
+.env.*
+*.local.json
+backend/config.json
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# --- Claude Code local settings ---
+.claude/settings.local.json
